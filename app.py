@@ -17,8 +17,8 @@ def webhook():
     ordertype = webhook_message['orderLabel'] 
     
     print (raw_message)
-    print (price)
-    print (ordertype)
+    # print (price)
+    # print (ordertype)
 
     return webhook_message
 
