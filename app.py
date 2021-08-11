@@ -13,8 +13,8 @@ def api_root():
 def webhook():
     webhook_message = json.loads(request.data)
     raw_message = json.dumps(request.json)
-    price = webhook_message['orderID'] 
-    ordertype = webhook_message['orderLabel'] 
+    # price = webhook_message['orderID'] 
+    # ordertype = webhook_message['orderLabel'] 
     
     print (raw_message)
     # print (price)
